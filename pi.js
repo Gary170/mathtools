@@ -1,6 +1,6 @@
 function displayPi() {
   // Get the number of decimal places to display
-  const decimalPlaces = document.getElementById("decimal-places").value;
+  const decimalPlaces = 1000000000;
 
   // Calculate the value of pi to the specified number of decimal places
   const pi = Math.PI.toFixed(decimalPlaces);
